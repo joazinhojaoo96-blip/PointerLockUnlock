@@ -1,12 +1,16 @@
+
 name: PointerLockUnlock
+
 options:
   bundleIdPrefix: dev.nexo
   deploymentTarget:
-    iOS: "15.0"
+    iOS: "16.0"
+
 settings:
   base:
     SWIFT_VERSION: "5.0"
     DEVELOPMENT_TEAM: ""
+
 targets:
   PointerLockUnlock:
     type: application
@@ -24,3 +28,4 @@ targets:
         INFOPLIST_KEY_UILaunchScreen_Generation: YES
         CODE_SIGN_STYLE: Manual
         CODE_SIGNING_ALLOWED: NO
+
